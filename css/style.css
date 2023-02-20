@@ -1,6 +1,23 @@
 :root{
-    --hlavička:D9D9D9;
+    --hlavička:#D9D9D9;
+    --butt:#F5841F;
 }
-.hlavicka *{
+.hlavicka{
     background-color: var(--hlavička);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 48px;
+    gap: 45px;
+    justify-content: space-between;
+
+}
+.button{
+    border-radius: 30px;
+    padding: 12px, 24px, 12px, 24px;
+    background-color: var(--butt);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 }
