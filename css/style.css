@@ -1,0 +1,6 @@
+:root{
+    --hlavička:D9D9D9;
+}
+.hlavicka *{
+    background-color: var(--hlavička);
+}
