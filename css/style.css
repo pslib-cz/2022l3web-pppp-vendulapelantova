@@ -3,6 +3,9 @@
     --butt:#F5841F;
     --butt_text:#ffffff;
 }
+p{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
 .hlavicka{
     background-color: var(--hlavička);
     display: flex;
