@@ -19,10 +19,16 @@ h1{
     background-color: var(--hlavička);
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     height: 48px;
     gap: 45px;
     justify-content: space-between;
+}
+.hlavicka_kontakt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 main{
     display: flex;
@@ -34,7 +40,7 @@ main{
     background-color: var(--butt);
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     color: var(--butt_text);
     width: fit-content;
