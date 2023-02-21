@@ -28,6 +28,10 @@ p{
     border-radius: 30px;
     padding: 12px 24px;
 }
+.button__text{
+    color: var(--butt_text);
+    text-decoration: none;
+}
 .mobil::before{
    content: url(../icon/ico_head_telephone.svg);
 }
