@@ -35,3 +35,6 @@ p{
 .mobil::before{
    content: url(../icon/ico_head_telephone.svg);
 }
+.mail::before{
+    content: url(../icon/ico_head_email.svg);
+}
