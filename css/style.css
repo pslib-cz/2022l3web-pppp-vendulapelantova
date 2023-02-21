@@ -28,3 +28,6 @@ p{
     color: var(--butt_text);
     width: fit-content;
 }
+.mobil::before{
+   content: url(../icon/ico_head_telephone.svg);
+}
