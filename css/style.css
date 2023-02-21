@@ -7,6 +7,14 @@
 p{
     font-family: 'Hanken Grotesk', sans-serif;
 }
+h1{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 56px;
+    text-align: center;
+}
 .hlavicka{
     background-color: var(--hlavička);
     display: flex;
@@ -15,7 +23,12 @@ p{
     height: 48px;
     gap: 45px;
     justify-content: space-between;
-
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .button{
     background-color: var(--butt);
