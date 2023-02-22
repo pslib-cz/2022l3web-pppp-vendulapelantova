@@ -27,7 +27,7 @@ h1{
     gap: 45px;
     justify-content: space-between;
 }
-.hlavicka_kontakt{
+.hlavicka__kontakt{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -36,6 +36,15 @@ h1{
     text-decoration: none;
     color: var(--text);
 }
+.mobil::before{
+    content: url(../icon/ico_head_telephone.svg);
+ }
+ .mail::before{
+     content: url(../icon/ico_head_email.svg);
+ }
+ .uzivatel::before{
+     content: url(../icon/ico_head_uzivatel.svg);
+ }
 main{
     display: flex;
     flex-direction: column;
@@ -56,10 +65,4 @@ main{
 .button__text{
     color: var(--butt_text);
     text-decoration: none;
-}
-.mobil::before{
-   content: url(../icon/ico_head_telephone.svg);
-}
-.mail::before{
-    content: url(../icon/ico_head_email.svg);
 }
