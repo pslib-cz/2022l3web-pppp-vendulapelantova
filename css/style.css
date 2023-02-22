@@ -31,10 +31,6 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-weight: 700;
-    font-size: 9px;
-    text-decoration: none;
-    color: var(--text);
 }
 .mobil::before{
     content: url(../icon/ico_head_telephone.svg);
@@ -44,6 +40,12 @@ h1{
  }
  .uzivatel::before{
      content: url(../icon/ico_head_uzivatel.svg);
+ }
+ .hlavicka__kontakt>a{
+    color: var(--text);
+    font-weight: 700;
+    font-size: 9px;
+    text-decoration: none;
  }
 main{
     display: flex;
