@@ -38,18 +38,21 @@ h1{
     display: block;
     width: 16px;
     height: 16px;
+    margin: 8px;
  }
  .mail::before{
     content: url(../icon/ico_head_email.svg);
     display: block;
     width: 16px;
     height: 16px;
+    margin: 8px;
  }
  .uzivatel::before{
     content: url(../icon/ico_head_uzivatel.svg);
     display: block;
     width: 16px;
     height: 16px;
+    margin: 8px;
  }
  .hlavicka__kontakt>a{
     color: var(--text);
