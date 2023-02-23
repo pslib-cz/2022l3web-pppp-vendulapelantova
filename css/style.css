@@ -35,14 +35,29 @@ h1{
 }
 .mobil::before{
     content: url(../icon/ico_head_telephone.svg);
+    display: block;
+    width: 16px;
+    height: 16px;
  }
  .mail::before{
-     content: url(../icon/ico_head_email.svg);
+    content: url(../icon/ico_head_email.svg);
+    display: block;
+    width: 16px;
+    height: 16px;
  }
  .uzivatel::before{
-     content: url(../icon/ico_head_uzivatel.svg);
+    content: url(../icon/ico_head_uzivatel.svg);
+    display: block;
+    width: 16px;
+    height: 16px;
  }
- .hlavicka__kontakt>a, .hlavicka__prihlaseni>a{
+ .hlavicka__kontakt>a{
+    color: var(--text);
+    font-weight: 700;
+    font-size: 9px;
+    text-decoration: none;
+}
+.hlavicka__prihlaseni>a{
     color: var(--text);
     font-weight: 700;
     font-size: 9px;
