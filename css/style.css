@@ -4,6 +4,7 @@
     --butt_text:#ffffff;
     --výhody:#8ECAE6;
     --text:#000000;
+    --cara: #D9D9D9;
 }
 p{
     font-family: 'Hanken Grotesk', sans-serif;
@@ -41,12 +42,15 @@ h1{
  .uzivatel::before{
      content: url(../icon/ico_head_uzivatel.svg);
  }
- .hlavicka__kontakt>a{
+ .hlavicka__kontakt>a, .hlavicka__prihlaseni>a{
     color: var(--text);
     font-weight: 700;
     font-size: 9px;
     text-decoration: none;
- }
+}
+.kontakt__mobil{
+    border-right: solid 1px var(--cara);
+}
 main{
     display: flex;
     flex-direction: column;
