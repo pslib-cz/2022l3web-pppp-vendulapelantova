@@ -14,6 +14,7 @@
     --figcap:#2D4275;
     --obd:#ffffff;
     --paticka:#16213C;
+    --funkce__obdelnik:#E7E7E7;
 }
 p{
     font-family: 'Hanken Grotesk', sans-serif;
@@ -105,12 +106,31 @@ h4{
     margin: 0 auto;
     margin-bottom: 16px;
 }
+.buttonOR{
+  background-color: var(--butt_text);
+  border: 4px solid var(--butt);
+}
 .button__text{
     color: var(--butt_text);
     text-decoration: none;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+.button__text--cerny{
+  color: var(--text);
 }
 .button:hover{
   background-color: var(--hower);
+}
+.button__text--cerny:hover, .buttonOR__text--cerny:hover{
+  color: var(--butt_text);
+}
+.buttonOR:hover{
+  border: 4px solid var(--hower);
+  color: var(--butt_text);
 }
 
 
@@ -286,5 +306,5 @@ text-align: left;
 }
 
 .povinny-nadpis{
-    display: none;
+  display: none;
 }

@@ -381,7 +381,7 @@ main{
   text-align: left;
   align-self: flex-start;
   margin-left: 16px;
-  gap: 12px;
+  gap: 1em;
 }
 .sekce-cesta__uvod::before{
   content: url(../icon/ico_head_domecek.svg);
@@ -393,6 +393,9 @@ main{
   vertical-align: text-top;
   margin-left: 12px;
   margin-right: 12px;
+}
+.sekce-cesta__konec:hover, .sekce-cesta__uvod:hover{
+  text-decoration: underline;
 }
 .str-kontakt__nazev{
   font-family: 'Hanken Grotesk';
@@ -414,5 +417,69 @@ main{
 .str-kontakt__mapa{
   margin-top: 1em;
   margin-bottom: 1em;
-  width: 100%;
+  width: 100%;/*
+  frameborder:0;*/
+}
+
+
+
+/*FUNKCE*/
+.str-kontakt__text{
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+.str-kontakt__popis{
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  text-decoration: none;
+  color: var(--text);
+}
+.str-kontakt>a{
+  text-decoration: none;
+}
+.str-kontakt>a:hover, .str-kontakt__popis:hover{
+  color: var(--butt);
+}
+.funkce__obdelnik{
+  background-color: var(--funkce__obdelnik);
+  width: -webkit-fill-available;
+  padding-top: 3em;
+}
+.obdelnik:hover, .obdelnik__nazev:hover{
+  color: var(--hower);
+  cursor: pointer;
+}/*
+.obdelnik{
+  position: relative;
+}
+.obdelnik:hover{
+  content: url(../icon/Button-circle.svg);
+  position: absolute;
+  left: 2em;
+
+}*/
+.obdelnik__nazev{
+  color: var(--butt);
+}
+.dotazy__popis{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+.dotazy__mail{
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-index);
+  padding-bottom: 3em;
+}
+.dotazy__tlacitka{
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
