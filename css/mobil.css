@@ -1,0 +1,418 @@
+.hlavicka{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center; 
+    gap: 45px;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hlavicka__kontakt>a{
+    color: var(--text);
+    font-weight: 700;
+    font-size: 9px;
+    text-decoration: none;
+}
+.hlavicka__prihlaseni>a{
+    color: var(--text);
+    font-weight: 700;
+    font-size: 9px;
+    text-decoration: none;
+}
+.kontakt__mobil{
+    border-right: solid 1px var(--cara);
+    padding-right: 8px;
+    margin-left: 1em;
+}
+
+
+/*Hamburger menu*/
+  .container {
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+  }
+  
+  .navbar .menu-items {
+    display: flex;
+  }
+  
+  .navbar .nav-container li {
+    list-style: none;
+  }
+  
+  .navbar .nav-container a {
+    text-decoration: none;
+    color: var(--butt_text);
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+  }
+  
+  .navbar .nav-container a:hover{
+      font-weight: bolder;
+  }
+  
+  .nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+    margin-top: 15px;
+  }
+  
+  .nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    right: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .nav-container .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--text);
+  }
+  
+  .nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .navbar .menu-items {
+    padding-top: 60px;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-right: -40px;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+    background-color: var(--butt);
+  }
+  
+  .navbar .menu-items li {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: 1.2rem;
+  }
+  /*rotace-carek*/
+  .nav-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .logo{
+    display: none;
+  }
+
+  .menu-items li a:hover{
+    color: var(--hower);
+    font-weight: bolder;
+  }
+/*
+.topnav {
+    color: var(--text);
+    
+}
+.topnav a {
+    background-color: var(--butt);
+    color: var(--butt_text);
+}
+.topnav .hamburger__tlacitko{
+    background-color: var(--butt);
+    color: var(--text);
+    border-radius: 100px;
+    padding: 8px;
+}
+.topnav .navigace {
+    display: none;
+}
+.topnav a:hover {
+    background-color: var(--hower);
+    color: var(--text--butt_text);
+}
+.hamburger a {
+    text-decoration: none;
+    font-weight: bold;
+}
+@media screen and (min-width: 750px) {
+    .topnav .navigace {
+      display: block;
+    }
+    .topnav .hamburger {
+      display: none;
+    }
+}
+#myLinks li{
+    list-style-type: none;
+    padding: 0 0.5em 0 1.25em ;
+}
+.hamburger{
+    border-radius: 100px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+}
+#myLinks{
+    background-color: var(--butt);
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+*/
+.uvod__nazev{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.uvod__popis{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodik li{
+    list-style: url(../icon/Vector.svg);
+}
+.bodik{
+    /*margin-left: 150px;*/
+    padding: 0;
+    text-align: left;
+}
+
+.reklama{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28.5px;
+    padding-top: 41px;
+    border-top: solid 1px var(--vodorcara) ;
+    margin-top: 42px;
+    margin-bottom: 29px;
+    width: -webkit-fill-available;
+}
+
+.vyhody{
+    background-color: var(--vyh-res-bg);
+    width: -webkit-fill-available;
+    }
+.vyhody__obdelniky{
+    padding-top: 47px;
+    border-top: dashed 2px var(--vyhody);
+}
+.obdelnik{
+    background-color: var(--obd);
+    border-radius: 8px;
+    width: 248px;
+    height: 144px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    text-align: left;
+    overflow: hidden;
+    padding-top: 8px;
+    padding-bottom: 40px;
+    padding-left: 28px;
+    padding-right: 28px;
+    
+}
+.obdelnik>p{
+    overflow: hidden;
+}
+
+.puntiky{
+    content: url(../icon/Group-59.svg);
+    margin: 0 auto;
+    /*margin-top: 22px;*/
+    margin-bottom: 39px;
+}
+
+.pribeh__text{
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    Width:334px;
+    Height:57px;
+    overflow: hidden;
+}
+.pribeh__obr{
+    padding-bottom: 50px;
+    width: -webkit-fill-available;
+    border-bottom: solid 2px var(--cara);
+}
+
+.recenze__popis{
+    width: 257px;
+    height: 68px;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+    overflow: hidden;
+    color: var(--text);
+}
+.recenze__jmeno{
+    text-align: left;
+    padding-left: 32px;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    color: var(--text);
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.recenze__fce{
+    font-family: 'Hanken Grotesk';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--text);
+    text-align: left;
+    padding-left: 32px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.aktuality__modul, .aktuality__sleva{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 40px;
+  margin-left: 22px;
+  margin-right: 23px;
+  
+}
+.aktuality__modul div, .aktuality__sleva div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
+
+
+
+/*KONTAKT*/
+.nazev-sekce{
+  text-align: left;
+  align-self: flex-start;
+  margin-left: 16px;
+  margin-bottom: 0;
+}
+.sekce-cesta a{
+  text-decoration: none;
+  color: var(--text);
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.sekce-cesta{
+  text-align: left;
+  align-self: flex-start;
+  margin-left: 16px;
+  gap: 12px;
+}
+.sekce-cesta__uvod::before{
+  content: url(../icon/ico_head_domecek.svg);
+  margin-right: 0.25em;
+  vertical-align: middle;
+}
+.sekce-cesta__konec::before{
+  content: url(../icon/Ellipse-26.svg);
+  vertical-align: text-top;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.str-kontakt__nazev{
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--text-index);
+}
+.str-kontakt__podnadpis{
+  color: var(--butt);
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+.str-kontakt__mapa{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+}
