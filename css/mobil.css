@@ -277,13 +277,15 @@ main{
     padding-bottom: 40px;
     padding-left: 28px;
     padding-right: 28px;
-    
+    position: relative;
 }
 .obdelnik>p{
     overflow: hidden;
 }
 .obdelnik:hover::after{
   content: url(../icon/Button-circle.svg);
+  position: absolute;
+  left: 1em;
 }
 .puntiky{
     content: url(../icon/Group-59.svg);
