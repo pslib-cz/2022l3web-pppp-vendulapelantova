@@ -267,8 +267,8 @@ main{
 .obdelnik{
     background-color: var(--obd);
     border-radius: 8px;
-    width: 248px;
-    height: 144px;
+    min-width: 248px;
+    min-height: 144px;
     margin: 0 auto;
     margin-bottom: 32px;
     text-align: left;
