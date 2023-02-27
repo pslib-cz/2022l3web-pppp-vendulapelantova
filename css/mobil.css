@@ -467,10 +467,10 @@ main{
 }*/
 .obdelnik__nazev{
   color: var(--butt);
-}
+}/*
 .dotazy{
   background-color: var(--butt_text);
-}
+}*/
 .dotazy__popis{
   margin-left: 1.5em;
   margin-right: 1.5em;
