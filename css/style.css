@@ -16,7 +16,7 @@
     --paticka:#16213C;
     --funkce__obdelnik:#E7E7E7;
 }
-p, ul, li, a{
+html, p, ul, li, a{
     font-family: 'Hanken Grotesk', sans-serif;
     color:var(--text-index) ;
 }
