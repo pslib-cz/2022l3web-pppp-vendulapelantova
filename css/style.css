@@ -1,285 +1,310 @@
 :root{
-    --hlavička:#F5F5F5;
-    --butt:#F5841F;
-    --butt_text:#ffffff;
-    --výhody:#8ECAE6;
-    --text:#000000;
-    --cara: #D9D9D9;
-    --hower:#16213C;
-    --tx-foot:#8ECAE6;
-    --vyh-res-bg:rgba(142, 202, 230, 0.12);
-    --nadpis:#16213C;
-    --text-index: #16213C;
-    --vodorcara: #EFEFEF;
-    --figcap:#2D4275;
-    --obd:#ffffff;
-    --paticka:#16213C;
-    --funkce__obdelnik:#E7E7E7;
+  --hlavička:#F5F5F5;
+  --butt:#F5841F;
+  --butt_text:#ffffff;
+  --výhody:#8ECAE6;
+  --prerus-cara:#68DBFF;
+  --text:#000000;
+  --cara: #D9D9D9;
+  --hower:#16213C;
+  --tx-foot:#8ECAE6;
+  --vyh-res-bg:rgba(142, 202, 230, 0.12);
+  --nadpis:#16213C;
+  --text-index: #16213C;
+  --vodorcara: #EFEFEF;
+  --figcap:#2D4275;
+  --obd:#ffffff;
+  --paticka:#16213C;
+  --funkce__obdelnik:#E7E7E7;
 }
+
 html, p, ul, li, a{
-    font-family: 'Hanken Grotesk', sans-serif;
-    color:var(--text-index) ;
+  font-family: 'Hanken Grotesk', sans-serif;
+  color:var(--text-index) ;
+  text-decoration: none;
 }
 
 h1{
-    font-family: 'Hanken Grotesk', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 56px;
-    text-align: center;
-    color: var(--nadpis);
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 56px;
+  text-align: center;
+  color: var(--nadpis);
 }
 .h1-or{
-    color: var(--butt);
+  color: var(--butt);
 }
 span{
-    color: var(--butt);
+  color: var(--butt);
 }
 h2{
-    font-family: 'Hanken Grotesk';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 36px;
-    text-align: center;
-    color: var(--nadpis);
-    margin-top: 43px;
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  color: var(--nadpis);
 }
 h5{
-  font-family: 'Hanken Grotesk';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 23px;
-  color: var(--nadpis);
-  text-align: left;
+font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 23px;
+color: var(--nadpis);
+text-align: left;
 }
 h4{
-  font-family: 'Hanken Grotesk';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 26px;
-  text-align: center;
+font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
 }
 .hlavicka{
-    background-color: var(--hlavička);
-    height: 48px;
-    width: auto;
+  background-color: var(--hlavička);
+  height: 48px;
+  width: auto;
 }
 .hlavicka__kontakt{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 8px;
 }
 .mobil::before{
-    content: url(../icon/ico_head_telephone.svg);
-    padding-right: 0.5em;
-    vertical-align: middle;
- }
- .mail::before{
-    content: url(../icon/ico_head_email.svg);
-    padding-right: 1em;
-    vertical-align: middle;
- }
- .uzivatel::before{
-    content: url(../icon/ico_head_uzivatel.svg);
-    margin-right: 8px;
-    padding-right: 1em;
-    vertical-align: middle;
-    display: inline-block;
-    width: 10px;
- }
+  content: url(../icon/ico_head_telephone.svg);
+  padding-right: 0.5em;
+  vertical-align: middle;
+}
+.mail::before{
+  content: url(../icon/ico_head_email.svg);
+  padding-right: 1em;
+  vertical-align: middle;
+}
+.uzivatel::before{
+  content: url(../icon/ico_head_uzivatel.svg);
+  margin-right: 8px;
+  padding-right: 1em;
+  vertical-align: middle;
+  display: inline-block;
+  width: 10px;
+}
 
- 
+
 .button{
-    background-color: var(--butt);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: var(--butt_text);
-    width: fit-content;
-    border-radius: 30px;
-    padding: 12px 24px;
-    margin: 0 auto;
-    margin-bottom: 16px;
+  background-color: var(--butt);
+  color: var(--butt_text);
+  width: fit-content;
+  border-radius: 30px;
+  padding: 12px 24px;
+  margin: 0 auto;
+  margin-bottom: 16px;
 }
 .buttonOR{
-  background-color: var(--butt_text);
-  border: 4px solid var(--butt);
+background-color: var(--butt_text);
+border: 4px solid var(--butt);
 }
 .button__text{
-    color: var(--butt_text);
-    text-decoration: none;
-    font-family: 'Hanken Grotesk';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
+  color: var(--butt_text);
+  text-decoration: none;
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
 }
 .button__text--cerny{
-  color: var(--text);
+color: var(--text);
 }
 .button:hover{
-  background-color: var(--hower);
+background-color: var(--hower);
 }
 .button__text--cerny:hover, .buttonOR__text--cerny:hover{
-  color: var(--butt_text);
+color: var(--butt_text);
 }
 .buttonOR:hover{
-  border: 4px solid var(--hower);
-  color: var(--butt_text);
+border: 4px solid var(--hower);
+color: var(--butt_text);
 }
 
+.recenze__popis{
+width: 257px;
+height: 68px;
+font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+overflow: hidden;
+color: var(--text);
+}
 
 figure{
-    margin: 0;
+  margin: 0;
 }
 
 .img-responsive{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .vyhody__obr{
-    background-color: var(--hower);
-    padding: 40px;
-    border-radius: 100%;
-    margin-top:  52px;
-    margin-bottom: 52px;
+  background-color: var(--hower);
+  padding: 40px;
+  border-radius: 100%;
+  margin: 52px 0 ;
 }
 
+.vyhody__obdelniky{
+padding-top: 1.5em;
+border-top: dashed 2px var(--prerus-cara);
+}
+.obdelnik:hover, .obdelnik__nazev:hover{
+color: var(--hower);
+cursor: pointer;
+}
+.obdelnik__nazev{
+color: var(--butt);
+}
+.dotazy{
+background-color: var(--butt_text);
+}
+.puntiky{
+content: url(../icon/Group-59.svg);
+margin: 0 auto;
+margin-bottom: 39px;
+}
 
 figcaption{
-    font-family: 'Hanken Grotesk';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: center;
-    color: var(--figcap);
-    padding: 2em;
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: var(--figcap);
+  padding: 2em;
 }
 
 
 .aktuality{
-  background-color: var(--hlavička);
+background-color: var(--hlavička);
 }
 .aktuality__modul::before{
-  content: url(../icon/Frame-68.svg);
+content: url(../icon/Frame-68.svg);
 }
 .aktuality__sleva::before{
-  content: url(../icon/Frame-73.svg);
+content: url(../icon/Frame-73.svg);
 }
 .aktuality__modul, .aktuality__sleva, .aktuality__modul h4, .aktuality__sleva h4{
-  text-align: left;
+text-align: left;
 }
 .aktuality__modul h4, .aktuality__sleva h4{
-  margin-top: 20px;
+margin-top: 20px;
 }
 .aktuality__modul p, .aktuality__sleva p{
-  margin: 0;
+margin: 0;
 }
 
-
+.recenze{
+border-top: solid 2px var(--cara);
+}
 .paticka{
-  background-color: var(--paticka);
-  color: var(--tx-foot);
-  margin: 0 auto;
+background-color: var(--paticka);
+color: var(--tx-foot);
+margin: 0 auto;
 }
 .youtube{
-  content: url(../icon/ico_foot_youtube.svg);
-  width: 18px;
-  height: 18px;
-  padding-right: 1em;
-  margin: 0;
-  padding-left: 0;
+content: url(../icon/ico_foot_youtube.svg);
+width: 18px;
+height: 18px;
+padding-right: 1em;
+margin: 0;
+padding-left: 0;
 }
 .linkedin{
-  content: url(../icon/ico_foot_linkedin.svg);
-  width: 18px;
-  height: 18px;
+content: url(../icon/ico_foot_linkedin.svg);
+width: 18px;
+height: 18px;
 }
 .paticka__logo{
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+text-align: center;
+padding: 1em 0;
 }
 .paticka__adresa{
-  text-align: left;
-  display: flex;
-  justify-content: center;
-  font-family: 'Hanken Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-  margin-bottom: 1em;
+text-align: left;
+display: flex;
+justify-content: center;
+font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+margin-bottom: 1em;
 }
 
 .paticka__kontakt{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
 .paticka__kontakt ul{
-  list-style: none;
-  font-family: 'Hanken Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-  margin: 0 auto;
-  padding-left: 0;
+list-style: none;
+font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+margin: 0 auto;
+padding-left: 0;
 }
 .paticka__kontakt a{
-  text-align: center;
-  margin: 0 auto;
-  color: var(--tx-foot);
-  text-decoration: none;
+text-align: center;
+margin: 0 auto;
+color: var(--tx-foot);
+text-decoration: none;
 }
 .paticka-kontakt__mail .paticka-kontakt__mobil{
- padding-left: 0;
+padding-left: 0;
 }
 .paticka__videotut a{
-  text-align: left;
-  text-decoration: none;
-  color: var(--tx-foot);
+text-align: left;
+text-decoration: none;
+color: var(--tx-foot);
 }
 .paticka__podpora a{
-  text-align: left;
-  text-decoration: none;
-  color: var(--tx-foot);
+text-align: left;
+text-decoration: none;
+color: var(--tx-foot);
 }
 .paticka__odkazy{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .paticka__menu a{
-  text-align: left;
-  text-decoration: none;
-  color: var(--tx-foot);
-  list-style: none;
+text-align: left;
+text-decoration: none;
+color: var(--tx-foot);
+list-style: none;
 }
 .paticka__menu ul, .paticka__videotut ul, .paticka__podpora ul{
-  font-family: 'Hanken Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-  list-style: none;
-  padding-left: 0;
+font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+list-style: none;
+padding-left: 0;
 }
 .paticka__menu h3, .paticka__videotut h3, .paticka__podpora h3{
-  font-family: 'Hanken Grotesk';
+font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 800;
 font-size: 22px;
@@ -288,24 +313,22 @@ text-align: left;
 }
 
 .paticka__zahlavi{
-  padding-top: 10px;
-  border-top: solid 2px var(--tx-foot);
-  margin-left: 8.5px;
-  margin-right: 8.5px;
-  margin-top: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+padding-top: 10px;
+border-top: solid 2px var(--tx-foot);
+margin: 1em 8.5px 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .paticka__zahlavi > p{
-  color: var(--tx-foot);
-  text-align: center;
+color: var(--tx-foot);
+text-align: center;
 }
 .paticka__menu a:hover{
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 .povinny-nadpis{
-  display: none;
+display: none;
 }
