@@ -194,6 +194,7 @@ figcaption{
 
 .aktuality{
 background-color: var(--hlavička);
+padding: 0 1em 40px;
 }
 .aktuality__modul::before{
 content: url(../icon/Frame-68.svg);
