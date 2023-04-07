@@ -129,32 +129,29 @@ align-items: center;
 }
 
 .bodik li{
-list-style: url(../icon/Vector.svg);
+  list-style: url(../icon/Vector.svg);
 }
 .bodik{
-padding: 0;
-text-align: left;
+  padding: 0;
+  text-align: left;
 }
 
 .reklama{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 28.5px;
   margin: 42px 0 29px;
+  border-top: solid 1px var(--vodorcara);
+  padding-top: 2em;
 }
 .uvod__foto{
-border-bottom: solid 1px var(--vodorcara) ;
-padding-bottom: 2em;
+  max-width: fit-content;
+  margin: 0 auto;
 }
 .vyhody__obr {
-padding: 15px;
-margin: 0;
+  padding: 15px;
+  margin: 0;
 }  
 .vyhody{
-background-color: var(--vyh-res-bg);
-padding: 1em 0;
+  background-color: var(--vyh-res-bg);
+  padding: 1em 0;
 }
 
 .obdelnik{
