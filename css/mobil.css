@@ -211,8 +211,12 @@ margin: 0 0 32px;
 display: flex;
 flex-direction: row;
 gap: 30px;
-margin: 0 23px 40px 22px;
-
+}
+.aktuality__modul{
+  margin: 0 23px 40px 22px;
+}
+.aktuality__sleva{
+  margin: 0 23px 0px 22px;
 }
 .aktuality__modul div, .aktuality__sleva div{
 display: flex;
