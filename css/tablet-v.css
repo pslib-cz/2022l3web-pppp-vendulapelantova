@@ -48,6 +48,21 @@
     margin: 1em 4em;
 }
 /*funkce*/
+.str-kontakt__box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.str-kontakt__nazev{
+    text-align: left;
+    margin: 1em 3em;
+}
+.str-kontakt__text{
+    text-align: left;
+    margin: 1em 4em;
+}
 .funkce__obdelnik{
     grid-template-columns: repeat(2, 1fr);
 }
