@@ -57,16 +57,28 @@
 .paticka{
     display: grid;
     grid-template-areas:
-    "sloupek odkazy"
-    "zahlavi zahlavi";
+        "sloupek odkazy odkazy"
+        "zahlavi zahlavi zahlavi";
+}
+.paticka__logo{
+    text-align: left;
+    padding-left: 4em;
+    width: fit-content;
+}
+.paticka__adresa, .paticka__kontakt{
+    display: block;
+    padding-left: 4em;
+    width: fit-content;
 }
 .paticka__sloupek{
     grid-area: sloupek;
+    width: fit-content;
 }
 .paticka__odkazy{
     grid-area: odkazy;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-right: 4em;
 }
 .paticka__zahlavi{
     grid-area: zahlavi;
