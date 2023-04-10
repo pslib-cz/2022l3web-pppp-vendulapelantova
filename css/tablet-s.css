@@ -1,0 +1,14 @@
+.pribeh__box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0 2em;
+}
+.box__text{
+    width: 30em;
+}
+.pribeh__obr{
+    padding: 0;
+}
