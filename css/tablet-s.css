@@ -29,8 +29,9 @@
 .hamburger-nav li a{
     color: var(--text);
 }
-.hamburger-nav li:hover a{
+.hamburger-nav li:hover a, .hamburger-nav li:active a, .hamburger-nav li:visited a{
     font-weight: 800;
+    text-decoration: underline var(--butt) solid;
 }
 .hamburger-nav li:last-child{
     background-color: var(--butt);
