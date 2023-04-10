@@ -1,3 +1,6 @@
+.hlavicka__prihlaseni>a, .hlavicka__kontakt>a{
+    font-size: 17px;
+}
 .reklama{
     display: flex;
     flex-direction: row;
@@ -53,7 +56,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: flex-start;
 }
 .str-kontakt__nazev{
     text-align: left;
