@@ -136,7 +136,7 @@ border: 4px solid var(--hower);
 color: var(--butt_text);
 }
 
-.recenze__popis{
+.recenze__popis, .osoba__popis{
 width: 257px;
 height: 68px;
 font-family: 'Hanken Grotesk';

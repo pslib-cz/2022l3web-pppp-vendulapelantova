@@ -185,9 +185,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
-.recenze__osoba{
-margin-left: -32px;
-}
 .osoba__jmeno{
 text-align: left;
 font-family: 'Hanken Grotesk';
