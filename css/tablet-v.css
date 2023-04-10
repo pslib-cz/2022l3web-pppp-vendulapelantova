@@ -11,6 +11,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.vyhody__obr {
+    padding: 20px;
+}
 .vyhody__obdelniky{
     margin: 0 2em;
     display: grid;
@@ -50,6 +53,24 @@
 .button--pribeh{
     margin: 1em 4em;
 }
+
+.paticka{
+    display: grid;
+    grid-template-areas:
+    "sloupek odkazy"
+    "zahlavi zahlavi";
+}
+.paticka__sloupek{
+    grid-area: sloupek;
+}
+.paticka__odkazy{
+    grid-area: odkazy;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.paticka__zahlavi{
+    grid-area: zahlavi;
+}
 /*funkce*/
 .str-kontakt__box{
     display: flex;
@@ -69,6 +90,9 @@
 .funkce__obdelnik{
     grid-template-columns: repeat(2, 1fr);
     margin: 0 1em;
+}
+.obdelnikfce{
+    box-shadow: 1px 5px 10px 5px var(--cara);
 }
 /*kontakt*/
 .str-kontakt{
