@@ -1,4 +1,52 @@
-
+.reklama{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.vyhody__kolecka{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.vyhody__obdelniky{
+    margin: 0 2em;
+    display: grid;
+    grid-template-areas:
+    "obdelnik1 obdelnik2"
+    "obdelnik3 obdelnik4"
+    "puntik puntik"
+    "button button";
+}
+.obdelnik1{
+    grid-area: obdelnik1;
+}
+.obdelnik2{
+    grid-area: obdelnik2;
+}
+.obdelnik3{
+    grid-area: obdelnik3;
+}
+.obdelnik4{
+    grid-area: obdelnik4;
+}
+.puntiky{
+    grid-area: puntik;
+}
+.button{
+    grid-area: button;
+}
+.pribeh__nadpis{
+    text-align: left;
+    margin: 0 4em;
+}
+.pribeh__text{
+    text-align: left;
+    text-align:justify;
+    margin: 0 4em;
+}
+.button--pribeh{
+    margin: 1em 4em;
+}
 /*funkce*/
 .funkce__obdelnik{
     grid-template-columns: repeat(2, 1fr);
