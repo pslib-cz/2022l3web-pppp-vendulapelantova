@@ -55,6 +55,12 @@ line-height: 23px;
 color: var(--nadpis);
 text-align: left;
 }
+.obdelnikfce__nazev{
+  color: var(--butt);
+}
+.obdelnikfce__nazev:hover{
+  color: var(--nadpis);
+}
 h4{
 font-family: 'Hanken Grotesk';
 font-style: normal;

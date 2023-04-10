@@ -65,4 +65,5 @@
 }
 .funkce__obdelnik{
     grid-template-columns: repeat(2, 1fr);
+    margin: 0 1em;
 }
