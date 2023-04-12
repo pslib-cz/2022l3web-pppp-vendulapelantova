@@ -58,3 +58,30 @@
 .pribeh__obr{
     padding: 0;
 }
+.recenze{
+    display: grid;
+    grid-template-areas: 
+    "nazev nazev"
+    "misa beta"
+    "anca ."
+    "button button";
+}
+.recenze__nazev{
+    grid-area: nazev;
+}
+.recenze__box--misa{
+    grid-area: misa;
+}
+.recenze__box--beta{
+    grid-area: beta;
+}
+.recenze__box--ance{
+    grid-area: anca;
+}
+.recenze__button{
+    grid-area: button;
+}
+/*funkce*/
+.funkce__obdelnik{
+    grid-template-columns: repeat(3, 1fr);
+}

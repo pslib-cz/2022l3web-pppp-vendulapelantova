@@ -208,6 +208,7 @@ margin: 0 0 32px;
 display: flex;
 flex-direction: row;
 gap: 30px;
+justify-content: center
 }
 .aktuality__modul{
   margin: 0 23px 40px 22px;

@@ -61,6 +61,12 @@
 .recenze > article:last-child{
     margin: 3em 0 0;
 }
+.aktuality__modul div, .aktuality__sleva div{
+    max-width: 35em;
+}
+.aktuality__modul .aktuality__sleva{
+    justify-content: center;
+}
 .paticka{
     display: grid;
     grid-template-areas:
@@ -104,11 +110,18 @@
 }
 .str-kontakt__text{
     text-align: left;
-    margin: 1em 4em;
+    /*margin: 1em 4em;*/
+}
+figure{
+    text-align: center;
+}
+.str-kontakt__popis{
+    padding: 1em 2em;
 }
 .funkce__obdelnik{
     grid-template-columns: repeat(2, 1fr);
     margin: 0 1em;
+    border-radius: 2em;
 }
 .obdelnikfce{
     box-shadow: 1px 5px 10px 5px var(--cara);
