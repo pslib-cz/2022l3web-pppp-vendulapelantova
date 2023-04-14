@@ -4,3 +4,21 @@
     grid-template-columns: repeat(4, 1fr);
 }
 /*kontak*/
+.kontakt{
+    display: grid;
+    grid-template-areas: 
+    "nazev . . ."
+    "box mapa mapa mapa";
+    margin-right: 1em;
+}
+.kontakt__nazev{
+    grid-area: nazev;
+}
+.kontakt__box{
+    grid-area: box;
+    display: block;
+}
+.kontakt__mapa{
+    grid-area: mapa;
+    margin-right: 1em;
+}

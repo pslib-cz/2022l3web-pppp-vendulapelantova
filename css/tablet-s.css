@@ -86,9 +86,10 @@
     grid-template-columns: repeat(3, 1fr);
 }
 /*kontakt*/
-.str-kontakt__nazev{
+.kontakt__nazev{
     font-size: 25px;
+    text-align: left;
 }
-.str-kontakt__podnadpis{
+.kontakt__podnadpis{
     font-size: 20px;
 }

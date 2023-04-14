@@ -263,7 +263,7 @@ margin: 0 12px;
 .sekce-cesta__konec:hover, .sekce-cesta__uvod:hover{
 text-decoration: underline;
 }
-.str-kontakt__nazev{
+.kontakt__nazev{
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 800;
@@ -272,7 +272,7 @@ line-height: 26px;
 text-align: center;
 color: var(--text-index);
 }
-.str-kontakt__podnadpis{
+.kontakt__podnadpis{
 color: var(--butt);
 font-family: 'Hanken Grotesk';
 font-style: normal;
@@ -280,7 +280,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 21px;
 }
-.str-kontakt__mapa{
+.kontakt__mapa{
 margin-top: 1em;
 margin-bottom: 1em;
 width: 100%;

@@ -127,12 +127,12 @@ figure{
     box-shadow: 1px 5px 10px 5px var(--cara);
 }
 /*kontakt*/
-.str-kontakt{
+.kontakt{
     text-align: left;
 }
-.str-kontakt>div{
+.kontakt>div{
     margin-left: 1.5em;
 }
-.str-kontakt__nazev{
+.kontakt__nazev{
     margin: 1em 1.5em;
 }
