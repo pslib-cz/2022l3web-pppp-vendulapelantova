@@ -17,13 +17,11 @@
   --paticka:#16213C;
   --funkce__obdelnik:#E7E7E7;
 }
-
 html, p, ul, li, a{
   font-family: 'Hanken Grotesk', sans-serif;
   color:var(--text-index) ;
   text-decoration: none;
 }
-
 h1{
   font-family: 'Hanken Grotesk', sans-serif;
   font-style: normal;
@@ -98,8 +96,6 @@ text-align: center;
   display: inline-block;
   width: 10px;
 }
-
-
 .button{
   background-color: var(--butt);
   color: var(--butt_text);
@@ -147,25 +143,21 @@ text-align: left;
 overflow: hidden;
 color: var(--text);
 }
-
 figure{
   margin: 0;
 }
-
 .img-responsive{
   /*width: 100%;*/
   height: 100%;
   object-fit: cover;
   display: block;
 }
-
 .vyhody__obr{
   background-color: var(--hower);
   padding: 40px;
   border-radius: 100%;
   margin: 52px 0 ;
 }
-
 .vyhody__obdelniky{
 padding-top: 1.5em;
 border-top: dashed 2px var(--prerus-cara);
@@ -185,7 +177,6 @@ content: url(../icon/Group-59.svg);
 margin: 0 auto;
 margin-bottom: 39px;
 }
-
 figcaption{
   font-family: 'Hanken Grotesk';
   font-style: normal;
@@ -196,7 +187,6 @@ figcaption{
   color: var(--figcap);
   padding: 2em;
 }
-
 
 .aktuality{
 background-color: var(--hlavička);
@@ -217,7 +207,6 @@ margin-top: 20px;
 .aktuality__modul p, .aktuality__sleva p{
 margin: 0;
 }
-
 .recenze{
 border-top: solid 2px var(--cara);
 }
@@ -253,7 +242,6 @@ font-weight: 400;
 line-height: 21px;
 margin-bottom: 1em;
 }
-
 .paticka__kontakt{
 display: flex;
 flex-direction: column;
@@ -318,7 +306,6 @@ font-size: 22px;
 line-height: 29px;
 text-align: left;
 }
-
 .paticka__zahlavi{
 padding-top: 10px;
 border-top: solid 2px var(--tx-foot);
@@ -335,7 +322,6 @@ text-align: center;
 .paticka__menu a:hover{
 text-decoration: underline;
 }
-
 .povinny-nadpis{
 display: none;
 }
