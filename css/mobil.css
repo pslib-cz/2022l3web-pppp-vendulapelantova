@@ -3,7 +3,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center; 
-  gap: 45px;
+  gap: 2.8em;
   justify-content: space-between;
 }
 main{
@@ -14,19 +14,19 @@ margin-top: 3em;
 .hlavicka__kontakt>a{
   color: var(--text);
   font-weight: 700;
-  font-size: 9px;
+  font-size: 0.51em;
   text-decoration: none;
 }
 .hlavicka__prihlaseni>a{
   color: var(--text);
   font-weight: 700;
-  font-size: 9px;
+  font-size: 0.51em;
   text-decoration: none;
   padding-right: 1em;
 }
 .kontakt__mobil{
   border-right: solid 1px var(--cara);
-  padding-right: 8px;
+  padding-right: 0.5em;
   margin-left: 1em;
 }
 
@@ -124,10 +124,10 @@ transition: 1s;
 }
 
 .uvod__nazev{
-padding: 0 10px;
+padding: 0 0.6em;
 }
 .uvod__popis{
-padding: 0 10px;
+padding: 0 0.6em;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -142,7 +142,7 @@ align-items: center;
 }
 
 .reklama{
-  margin: 42px 0 29px;
+  margin: 2.6em 0 1.8em;
   border-top: solid 1px var(--vodorcara);
   padding-top: 2em;
 }
@@ -151,7 +151,7 @@ align-items: center;
   margin: 0 auto;
 }
 .vyhody__obr {
-  padding: 15px;
+  padding: 0.9em;
   margin: 0;
 }  
 .vyhody{
@@ -165,7 +165,7 @@ align-items: center;
   width: 248px;
   height: 144px;
   margin: 0 auto;
-  margin-bottom: 32px;
+  margin-bottom: 2em;
   text-align: left;
   overflow: hidden;
   padding: 2em;
@@ -181,7 +181,7 @@ height:57px;
 overflow: hidden;
 }
 .pribeh__obr{
-padding-bottom: 50px;
+padding-bottom: 3.1em;
 max-width: fit-content;
 margin: 0 auto;
 }
@@ -195,31 +195,31 @@ text-align: left;
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 700;
-line-height: 30px;
+line-height: 1.8em;
 color: var(--text);
-margin: 10px 0 0;
+margin: 1.6em 0 0;
 }
 .osoba__fce{
 font-family: 'Hanken Grotesk';
 font-style: italic;
 font-weight: 400;
-line-height: 18px;
+line-height: 1.1em;
 color: var(--text);
 text-align: left;
-margin: 0 0 32px;
+margin: 0 0 2em;
 }
 
 .aktuality__modul, .aktuality__sleva{
 display: flex;
 flex-direction: row;
-gap: 30px;
+gap: 1.8em;
 justify-content: center
 }
 .aktuality__modul{
-  margin: 0 23px 40px 22px;
+  margin: 0 1.4em 2.5em 1.3em;
 }
 .aktuality__sleva{
-  margin: 0 23px 0px 22px;
+  margin: 0 1.4em 0em 1.3em;
 }
 .aktuality__modul div, .aktuality__sleva div{
 display: flex;
@@ -233,7 +233,7 @@ gap: 8px;
 .nazev-sekce{
 text-align: left;
 align-self: flex-start;
-margin: 0 0 0 16px;
+margin: 0 0 0 1em;
 }
 .sekce-cesta a{
 text-decoration: none;
@@ -241,13 +241,13 @@ color: var(--text);
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
-line-height: 18px;
+font-size: 0.8em;
+line-height: 1.1em;
 }
 .sekce-cesta{
 text-align: left;
 align-self: flex-start;
-margin-left: 16px;
+margin-left: 1em;
 gap: 1em;
 }
 .sekce-cesta__uvod::before{
@@ -258,7 +258,7 @@ vertical-align: middle;
 .sekce-cesta__konec::before{
 content: url(../icon/Ellipse-26.svg);
 vertical-align: text-top;
-margin: 0 12px;
+margin: 0 0.75em;
 }
 .sekce-cesta__konec:hover, .sekce-cesta__uvod:hover{
 text-decoration: underline;
@@ -267,8 +267,8 @@ text-decoration: underline;
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 800;
-font-size: 20px;
-line-height: 26px;
+font-size: 1.25em;
+line-height: 1.6em;
 text-align: center;
 color: var(--text-index);
 }
@@ -277,8 +277,8 @@ color: var(--butt);
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 21px;
+font-size: 1em;
+line-height: 1.3em;
 }
 .kontakt__mapa{
 margin-top: 1em;
@@ -294,8 +294,8 @@ margin: 0 0.5em;
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 400;
-font-size: 19px;
-line-height: 30px;
+font-size: 1.1em;
+line-height: 1.8em;
 text-decoration: none;
 color: var(--text);
 }
@@ -317,8 +317,8 @@ margin: 0 1.5em;
 .dotazy__mail{
 font-family: 'Hanken Grotesk';
 font-weight: 700;
-font-size: 19px;
-line-height: 30px;
+font-size: 1.1em;
+line-height: 1.8em;
 color: var(--text-index);
 }
 .dotazy__tlacitka{
@@ -338,13 +338,13 @@ grid-template-columns: repeat(1, 1fr);
 }
 .obdelnikfce{
 background-color: var(--obd);
-border-radius: 8px;
+border-radius: 0.5em;
 width: 248px;
 height: 144px;
 margin: 0 auto;
-margin-bottom: 32px;
+margin-bottom: 2em;
 text-align: left;
-padding: 8px 28px 40px;
+padding: 0.5em 1.75em 2.5em;
 position: relative;
 }
 a.obdelnikfce::after {
