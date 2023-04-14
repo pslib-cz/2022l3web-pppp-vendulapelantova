@@ -1,5 +1,5 @@
 .hlavicka__prihlaseni>a, .hlavicka__kontakt>a{
-    font-size: 17px;
+    font-size: 1em;
 }
 .reklama{
     display: flex;
@@ -12,7 +12,7 @@
     grid-template-columns: repeat(2, 1fr);
 }
 .vyhody__obr {
-    padding: 20px;
+    padding: 1.25em;
 }
 .vyhody__obdelniky{
     margin: 0 2em;
