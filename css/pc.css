@@ -14,6 +14,9 @@
 .uvod__popis{
     align-items: flex-start;
 }
+.uvod__tlacitko{
+    margin: 0 1em;
+}
 .vyhody__kolecka{
     grid-template-columns: repeat(4, 1fr);
 }
