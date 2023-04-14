@@ -26,8 +26,8 @@ h1{
   font-family: 'Hanken Grotesk', sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 32px;
-  line-height: 56px;
+  font-size: 2em;
+  line-height: 3.5em;
   text-align: center;
   color: var(--nadpis);
 }
@@ -41,15 +41,15 @@ h2{
   font-family: 'Hanken Grotesk';
   font-style: normal;
   font-weight: 800;
-  font-size: 28px;
+  font-size: 1.75em;
   color: var(--nadpis);
 }
 h5{
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 800;
-font-size: 18px;
-line-height: 23px;
+font-size: 1.1em;
+line-height: 1.4em;
 color: var(--nadpis);
 text-align: left;
 }
@@ -57,26 +57,26 @@ text-align: left;
   color: var(--butt);
 }
 .obdelnikfce__nazev:hover{
-  color: var(--nadpis);
+  color: var(--nadpis); 
 }
 h4{
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 800;
-font-size: 20px;
-line-height: 26px;
+font-size: 1.25em;
+line-height: 1.6em;
 text-align: center;
 }
 .hlavicka{
   background-color: var(--hlavička);
-  height: 48px;
+  height: 3em;
   width: auto;
 }
 .hlavicka__kontakt{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 8px;
+  gap: 0.5em;
 }
 .mobil::before{
   content: url(../icon/ico_head_telephone.svg);
@@ -90,7 +90,7 @@ text-align: center;
 }
 .uzivatel::before{
   content: url(../icon/ico_head_uzivatel.svg);
-  margin-right: 8px;
+  margin-right: 0.5em;
   padding-right: 1em;
   vertical-align: middle;
   display: inline-block;
@@ -100,10 +100,10 @@ text-align: center;
   background-color: var(--butt);
   color: var(--butt_text);
   width: fit-content;
-  border-radius: 30px;
-  padding: 12px 24px;
+  border-radius: 2em;
+  padding: 0.75em 1.5em;
   margin: 0 auto;
-  margin-bottom: 16px;
+  margin-bottom: 1em;
 }
 .buttonOR{
 background-color: var(--butt_text);
@@ -115,8 +115,8 @@ border: 4px solid var(--butt);
   font-family: 'Hanken Grotesk';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 1em;
+  line-height: 1.3em;
 }
 .button__text--cerny{
 color: var(--text);
@@ -138,7 +138,7 @@ height: 68px;
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 400;
-line-height: 21px;
+line-height: 1.3em;
 text-align: left;
 overflow: hidden;
 color: var(--text);
@@ -153,9 +153,9 @@ figure{
 }
 .vyhody__obr{
   background-color: var(--hower);
-  padding: 40px;
+  padding: 2.5em;
   border-radius: 100%;
-  margin: 52px 0 ;
+  margin: 3.25em 0 ;
 }
 .vyhody__obdelniky{
 padding-top: 1.5em;
@@ -174,14 +174,14 @@ background-color: var(--butt_text);
 .puntiky{
 content: url(../icon/Group-59.svg);
 margin: 0 auto;
-margin-bottom: 39px;
+margin-bottom: 2.4em;
 }
 figcaption{
   font-family: 'Hanken Grotesk';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 1em;
+  line-height: 1.3em;
   text-align: center;
   color: var(--figcap);
   padding: 2em;
@@ -189,7 +189,7 @@ figcaption{
 
 .aktuality{
 background-color: var(--hlavička);
-padding: 0 1em 40px;
+padding: 0 1em 2.5em;
 }
 .aktuality__modul::before{
 content: url(../icon/Frame-68.svg);
@@ -201,7 +201,7 @@ content: url(../icon/Frame-73.svg);
 text-align: left;
 }
 .aktuality__modul h4, .aktuality__sleva h4{
-margin-top: 20px;
+margin-top: 1.25em;
 }
 .aktuality__modul p, .aktuality__sleva p{
 margin: 0;
@@ -238,7 +238,7 @@ justify-content: center;
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 400;
-line-height: 21px;
+line-height: 1.3em;
 margin-bottom: 1em;
 }
 .paticka__kontakt{
@@ -253,8 +253,8 @@ list-style: none;
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 21px;
+font-size: 1em;
+line-height: 1.3em;
 margin: 0 auto;
 padding-left: 0;
 }
@@ -292,8 +292,8 @@ list-style: none;
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 21px;
+font-size: 1em;
+line-height: 1.3em;
 list-style: none;
 padding-left: 0;
 }
@@ -301,14 +301,14 @@ padding-left: 0;
 font-family: 'Hanken Grotesk';
 font-style: normal;
 font-weight: 800;
-font-size: 22px;
-line-height: 29px;
+font-size: 1.3em;
+line-height: 1.8em;
 text-align: left;
 }
 .paticka__zahlavi{
-padding-top: 10px;
+padding-top: 0.6em;
 border-top: solid 2px var(--tx-foot);
-margin: 1em 8.5px 0;
+margin: 1em 0.53em 0;
 display: flex;
 flex-direction: column;
 justify-content: center;
