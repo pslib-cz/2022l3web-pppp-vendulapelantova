@@ -1,7 +1,60 @@
-
+.navbar{
+    max-width: 120em;
+    margin: 3em auto;
+}
+.uvod{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+}
+.uvod div{
+    text-align: left;
+}
+.uvod__popis{
+    align-items: flex-start;
+}
+.vyhody__kolecka{
+    grid-template-columns: repeat(4, 1fr);
+}
+.vyhody__obdelniky{
+    grid-template-areas: 
+    "obdelnik1 obdelnik2 obdelnik3 obdelnik4"
+    "puntik puntik puntik puntik"
+    "button button button button";
+}
+.bodik{
+    margin-left: 2em;
+}
+.box__text{
+    max-width: 50em;
+}
+.recenze{
+    grid-template-areas:
+    "nazev nazev nazev"
+    "misa beta anca"
+    "button button button";
+}
+.aktuality{
+    display: grid;
+    grid-template-areas: 
+    "aknaz aknaz"
+    "akmod aksle";
+}
+.aktuality__nazev{
+    grid-area: aknaz;
+}
+.aktuality__sleva{
+    grid-area: aksle;
+}
+.aktuality__modul{
+    grid-area: akmod;
+}
 /*funkce*/
 .funkce__obdelnik{
     grid-template-columns: repeat(4, 1fr);
+    max-width: 1750px;
+    margin: 0 auto;
 }
 /*kontak*/
 .kontakt{
