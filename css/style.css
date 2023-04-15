@@ -140,9 +140,12 @@ figure{
   border-radius: 100%;
   margin: 3.25em 0 ;
 }
+.vyhody__cara{
+  border-top: dashed 2px var(--prerus-cara);
+  margin: 0 auto;
+}
 .vyhody__obdelniky{
 padding-top: 1.5em;
-border-top: dashed 2px var(--prerus-cara);
 }
 .obdelnik:hover, .obdelnik__nazev:hover{
 color: var(--hower);

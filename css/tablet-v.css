@@ -11,6 +11,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.vyhody__cara{
+    max-width: 640px;
+}
 .vyhody__obr {
     padding: 1.25em;
 }
