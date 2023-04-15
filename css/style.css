@@ -17,14 +17,12 @@
   --paticka:#16213C;
   --funkce__obdelnik:#E7E7E7;
 }
-html, p, ul, li, a{
+html, li, a{
   font-family: 'Hanken Grotesk', sans-serif;
   color:var(--text-index) ;
   text-decoration: none;
 }
 h1{
-  font-family: 'Hanken Grotesk', sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 2em;
   line-height: 3.5em;
@@ -38,15 +36,11 @@ span{
   color: var(--butt);
 }
 h2{
-  font-family: 'Hanken Grotesk';
-  font-style: normal;
   font-weight: 800;
   font-size: 1.75em;
   color: var(--nadpis);
 }
 h5{
-font-family: 'Hanken Grotesk';
-font-style: normal;
 font-weight: 800;
 font-size: 1.1em;
 line-height: 1.4em;
@@ -60,8 +54,6 @@ text-align: left;
   color: var(--nadpis); 
 }
 h4{
-font-family: 'Hanken Grotesk';
-font-style: normal;
 font-weight: 800;
 font-size: 1.25em;
 line-height: 1.6em;
@@ -135,8 +127,6 @@ color: var(--butt_text);
 .recenze__popis, .osoba__popis{
 width: 257px;
 height: 68px;
-font-family: 'Hanken Grotesk';
-font-style: normal;
 font-weight: 400;
 line-height: 1.3em;
 text-align: left;
@@ -177,8 +167,6 @@ margin: 0 auto;
 margin-bottom: 2.4em;
 }
 figcaption{
-  font-family: 'Hanken Grotesk';
-  font-style: normal;
   font-weight: 700;
   font-size: 1em;
   line-height: 1.3em;
@@ -235,8 +223,6 @@ padding: 1em 0;
 text-align: left;
 display: flex;
 justify-content: center;
-font-family: 'Hanken Grotesk';
-font-style: normal;
 font-weight: 400;
 line-height: 1.3em;
 margin-bottom: 1em;
@@ -250,8 +236,6 @@ align-items: center;
 }
 .paticka__kontakt ul{
 list-style: none;
-font-family: 'Hanken Grotesk';
-font-style: normal;
 font-weight: 400;
 font-size: 1em;
 line-height: 1.3em;
@@ -289,8 +273,6 @@ color: var(--tx-foot);
 list-style: none;
 }
 .paticka__menu ul, .paticka__videotut ul, .paticka__podpora ul{
-font-family: 'Hanken Grotesk';
-font-style: normal;
 font-weight: 400;
 font-size: 1em;
 line-height: 1.3em;
@@ -298,8 +280,6 @@ list-style: none;
 padding-left: 0;
 }
 .paticka__menu h3, .paticka__videotut h3, .paticka__podpora h3{
-font-family: 'Hanken Grotesk';
-font-style: normal;
 font-weight: 800;
 font-size: 1.3em;
 line-height: 1.8em;
