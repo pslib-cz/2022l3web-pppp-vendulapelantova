@@ -182,6 +182,8 @@ margin-bottom: 2.4em;
   display: flex;
   overflow-x: scroll;
   scroll-behavior: smooth;
+  scrollbar-width: thin;      
+  scrollbar-color: var(--výhody) var(--prerus-cara);
 }
 .obdelniky--slide1, .obdelniky--slide2{
  position: relative;
