@@ -22,6 +22,7 @@ html, a{
   color:var(--text-index) ;
   text-decoration: none;
 }
+a{display: inline-block;}
 h1, h2, h3, h4, h5{
   font-weight: 800;
   color: var(--nadpis);
@@ -48,6 +49,9 @@ h5{
 h4{
   font-size: 1.25em;
   line-height: 1.6em;
+}
+.nazev-sekce{
+  font-size: 2.5em;
 }
 .hlavicka{
   background-color: var(--hlavička);
@@ -163,6 +167,7 @@ figure{
 }
 .puntiky__modry{
   content: url(../icon/Ellipse-37M.svg);
+  margin-right: 0.5em;
 }
 .puntiky__bily{
   content: url(../icon/Ellipse-35B.svg);
@@ -183,6 +188,10 @@ figure{
 .obdelniky--slide1, .obdelniky--slide2{
  position: relative;
  flex: 0 0 100%;
+}
+.obdelnikfce__popis, .obdelniky>p{
+  height: 4.5em;
+  overflow: hidden;
 }
 figcaption{
   font-weight: 700;
@@ -305,9 +314,10 @@ figcaption{
   justify-content: center;
   align-items: center;
 }
-.paticka__zahlavi > p{
+.paticka__zahlavi > a{
   color: var(--tx-foot);
   text-align: center;
+  margin-bottom: 0.5em;
 }
 .odkazy__menu a:hover, .odkazy__podpora a:hover, .odkazy__videotut a:hover{
   text-decoration: underline;

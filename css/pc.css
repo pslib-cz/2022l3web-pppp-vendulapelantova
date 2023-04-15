@@ -70,5 +70,6 @@ p{font-size: 1.25em;}
 }
 .kontakt__mapa{
     grid-area: mapa;
-    margin-right: 1em;
+    margin-right: 2em;
+    margin-top: -5em;
 }

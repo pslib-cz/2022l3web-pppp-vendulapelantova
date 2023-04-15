@@ -73,7 +73,8 @@
 .kbox__odkaz{margin-top: -3em;}
 /*kontakt*/
 .kontakt__nazev{
-    font-size: 1.6em;
+    font-size: 2em;
     text-align: left;
 }
 .konbox__podnadpis{font-size: 1.25em;}
+.kontakt>div{margin-left: 4em;}
