@@ -58,6 +58,9 @@
 .aktuality__modul{
     grid-area: akmod;
 }
+.paticka>div{
+    max-width: 1270px;
+}
 /*funkce*/
 .funkce__obdelnik{
     grid-template-columns: repeat(4, 1fr);

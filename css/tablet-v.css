@@ -67,11 +67,12 @@
 .aktuality__modul .aktuality__sleva{
     justify-content: center;
 }
-.paticka{
+.paticka>div{
     display: grid;
     grid-template-areas:
         "sloupek odkazy odkazy"
         "zahlavi zahlavi zahlavi";
+    margin: 0 auto;
 }
 .paticka__logo{
     text-align: left;
