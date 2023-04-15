@@ -28,7 +28,6 @@ main{
   padding-right: 0.5em;
   margin-left: 1em;
 }
-
 /*Hamburger menu*/
 .navbar{
   height: 0;/*
@@ -85,7 +84,6 @@ main{
   transform-origin: left;
   transition: 0.5s;
 }
-
 /*HAMBURGER*/
 .hamburger.active span:nth-child(1){
   transform: rotate(45deg);
@@ -199,7 +197,6 @@ font-family: 'Hanken Grotesk';
   padding: 0px;
   gap: 8px;
 }
-
 /*KONTAKT*/
 .nazev-sekce{
   text-align: left;
