@@ -91,6 +91,7 @@ transform: scaleX(1);
 transition: 1s;
 display: block;
 padding-left: 0;
+background-color: var(--butt);
 }  
 .hamburger-nav{
 transform: scaleX(0);
