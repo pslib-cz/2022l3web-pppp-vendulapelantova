@@ -17,17 +17,19 @@
   --paticka:#16213C;
   --funkce__obdelnik:#E7E7E7;
 }
-html, li, a{
+html, a{
   font-family: 'Hanken Grotesk', sans-serif;
   color:var(--text-index) ;
   text-decoration: none;
 }
-h1{
+h1, h2, h3, h4, h5{
   font-weight: 800;
+  color: var(--nadpis);
+  text-align: center;
+}
+h1{
   font-size: 2em;
   line-height: 3.5em;
-  text-align: center;
-  color: var(--nadpis);
 }
 .h1-or{
   color: var(--butt);
@@ -36,16 +38,12 @@ span{
   color: var(--butt);
 }
 h2{
-  font-weight: 800;
   font-size: 1.75em;
-  color: var(--nadpis);
 }
 h5{
-font-weight: 800;
-font-size: 1.1em;
-line-height: 1.4em;
-color: var(--nadpis);
-text-align: left;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  text-align: left;
 }
 .obdelnikfce__nazev{
   color: var(--butt);
@@ -54,10 +52,8 @@ text-align: left;
   color: var(--nadpis); 
 }
 h4{
-font-weight: 800;
-font-size: 1.25em;
-line-height: 1.6em;
-text-align: center;
+  font-size: 1.25em;
+  line-height: 1.6em;
 }
 .hlavicka{
   background-color: var(--hlavička);
@@ -104,8 +100,6 @@ border: 4px solid var(--butt);
 .button__text{
   color: var(--butt_text);
   text-decoration: none;
-  font-family: 'Hanken Grotesk';
-  font-style: normal;
   font-weight: 700;
   font-size: 1em;
   line-height: 1.3em;

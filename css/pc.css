@@ -29,6 +29,7 @@
     "obdelnik1 obdelnik2 obdelnik3 obdelnik4"
     "puntik puntik puntik puntik"
     "button button button button";
+    column-gap: 0.25em;
 }
 .bodik{
     margin-left: 2em;
