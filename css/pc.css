@@ -8,6 +8,8 @@
     justify-content: center;
     align-items: center;
     gap: 3em;
+    padding-bottom: 2.6em;
+    border-bottom: solid 2px var(--vodorcara);
 }
 .uvod div{
     text-align: left;
@@ -20,6 +22,11 @@
 }
 .uvod__tlacitko{
     margin: 0 1em;
+}
+.reklama{
+    max-width: 60em;
+    margin: 2.6em auto;
+    border-top: none;
 }
 .vyhody__kolecka{
     grid-template-columns: repeat(4, 1fr);

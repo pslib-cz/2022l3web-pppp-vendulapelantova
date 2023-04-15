@@ -10,6 +10,8 @@
 .vyhody__kolecka{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    max-width: 50em;
+    margin: 1em auto;
 }
 .vyhody__cara{
     max-width: 640px;
