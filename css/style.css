@@ -169,10 +169,14 @@ margin-bottom: 2.4em;
   width: 10px;
   height: 10px;
 }
+.puntiky__bily:hover, .puntiky__modry:hover{
+  transform: scale(2, 2);
+  transition: transform 1s;
+}
 .vyhody__obdelniky--slide{
   display: flex;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
 }
 .obdelniky--slide1, .obdelniky--slide2{
  position: relative;
