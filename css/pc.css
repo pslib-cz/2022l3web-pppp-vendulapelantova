@@ -7,22 +7,20 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 3em;
+    gap: 2em;
     padding-bottom: 2.6em;
     border-bottom: solid 2px var(--vodorcara);
-}
-.uvod div{
-    text-align: left;
-}
-.uvod__popis{
-    align-items: flex-start;
-}
-.bodik{
-    margin-left: 2em;
-}
-.uvod__tlacitko{
     margin: 0 1em;
 }
+.uvod__nazev, .uvod div{text-align: left;}
+.uvod__nazev{
+    font-size: 3em;
+    line-height: 1.5em;
+}
+p{font-size: 1.25em;}
+.uvod__popis{align-items: flex-start;}
+.bodik{margin-left: 2em;}
+.uvod__tlacitko{margin: 0 1em;}
 .reklama{
     max-width: 60em;
     margin: 2.6em auto;
@@ -32,18 +30,9 @@
     grid-template-columns: repeat(4, 1fr);
     max-width: none;
 }
-.vyhody__obr{
-    padding: 2.5em;
-}
-.vyhody__obdelniky--slide{
-    max-width: 1312px;
-}
-.obdelniky--slide1, .obdelniky--slide2{
-    grid-template-columns: repeat(4, 1fr);
-}
-.box__text{
-    max-width: 50em;
-}
+.vyhody__obr{padding: 2.5em;}
+.vyhody__obdelniky--slide{max-width: 1312px;}
+.obdelniky--slide1, .obdelniky--slide2{grid-template-columns: repeat(4, 1fr);}
 .recenze{
     grid-template-areas:
     "nazev nazev nazev"
@@ -56,18 +45,10 @@
     "aknaz aknaz"
     "akmod aksle";
 }
-.aktuality__nazev{
-    grid-area: aknaz;
-}
-.aktuality__sleva{
-    grid-area: aksle;
-}
-.aktuality__modul{
-    grid-area: akmod;
-}
-.paticka>div{
-    max-width: 1270px;
-}
+.aktuality__nazev{grid-area: aknaz;}
+.aktuality__sleva{grid-area: aksle;}
+.aktuality__modul{grid-area: akmod;}
+.paticka>div{max-width: 1270px;}
 /*funkce*/
 .funkce__obdelnik{
     grid-template-columns: repeat(4, 1fr);
@@ -82,9 +63,7 @@
     "box mapa mapa mapa";
     margin-right: 1em;
 }
-.kontakt__nazev{
-    grid-area: nazev;
-}
+.kontakt__nazev{grid-area: nazev;}
 .kontakt__box{
     grid-area: box;
     display: block;

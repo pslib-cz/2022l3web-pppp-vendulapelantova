@@ -75,7 +75,7 @@ h4{
 }
 .uzivatel::before{
   content: url(../icon/ico_head_uzivatel.svg);
-  margin-right: 0.5em;
+  margin-right: 1em;
   padding-right: 1em;
   vertical-align: middle;
   display: inline-block;
@@ -95,8 +95,8 @@ menu{
   margin-bottom: 1em;
 }
 .buttonOR{
-background-color: var(--butt_text);
-border: 4px solid var(--butt);
+  background-color: var(--butt_text);
+  border: 4px solid var(--butt);
 }
 .button__text{
   color: var(--butt_text);
@@ -106,26 +106,25 @@ border: 4px solid var(--butt);
   line-height: 1.3em;
 }
 .button__text--cerny{
-color: var(--text);
+  color: var(--text);
 }
 .button:hover{
-background-color: var(--hower);
+  background-color: var(--hower);
 }
 .button:hover .button__text--cerny{
   color: var(--butt_text);
 }
 .buttonOR:hover{
-border: 4px solid var(--hower);
+  border: 4px solid var(--hower);
 }
-
 .recenze__popis, .osoba__popis{
-width: 257px;
-height: 68px;
-font-weight: 400;
-line-height: 1.3em;
-text-align: left;
-overflow: hidden;
-color: var(--text);
+  width: 257px;
+  height: 68px;
+  font-weight: 400;
+  line-height: 1.3em;
+  text-align: left;
+  overflow: hidden;
+  color: var(--text);
 }
 figure{
   margin: 0;
@@ -146,21 +145,21 @@ figure{
   margin: 0 auto;
 }
 .vyhody__obdelniky{
-padding-top: 1.5em;
+  padding-top: 1.5em;
 }
 .obdelnik:hover, .obdelnik__nazev:hover{
-color: var(--hower);
-cursor: pointer;
+  color: var(--hower);
+  cursor: pointer;
 }
 .obdelnik__nazev{
-color: var(--butt);
+  color: var(--butt);
 }
 .dotazy{
-background-color: var(--butt_text);
+  background-color: var(--butt_text);
 }
 .puntiky{
-margin: 0 auto;
-margin-bottom: 2.4em;
+  margin: 0 auto;
+  margin-bottom: 2.4em;
 }
 .puntiky__modry{
   content: url(../icon/Ellipse-37M.svg);
@@ -199,129 +198,120 @@ figcaption{
   margin-top: 2em;
 }
 .aktuality__modul::before{
-content: url(../icon/Frame-68.svg);
+  content: url(../icon/Frame-68.svg);
 }
 .aktuality__sleva::before{
-content: url(../icon/Frame-73.svg);
+  content: url(../icon/Frame-73.svg);
 }
 .aktuality__modul, .aktuality__sleva, .aktuality__modul h4, .aktuality__sleva h4{
-text-align: left;
+  text-align: left;
 }
 .aktuality__modul h4, .aktuality__sleva h4{
-margin-top: 1.25em;
+  margin-top: 1.25em;
 }
 .aktuality__modul p, .aktuality__sleva p{
-margin: 0;
+  margin: 0;
 }
 .recenze{
-border-top: solid 2px var(--cara);
+  border-top: solid 2px var(--cara);
 }
 .paticka{
-background-color: var(--paticka);
-color: var(--tx-foot);
-margin: 0 auto;
+  background-color: var(--paticka);
+  color: var(--tx-foot);
+  margin: 0 auto;
 }
 .youtube{
-content: url(../icon/ico_foot_youtube.svg);
-width: 18px;
-height: 18px;
-padding-right: 1em;
-margin: 0;
-padding-left: 0;
+  content: url(../icon/ico_foot_youtube.svg);
+  width: 18px;
+  height: 18px;
+  padding-right: 1em;
+  margin: 0;
+  padding-left: 0;
 }
 .linkedin{
-content: url(../icon/ico_foot_linkedin.svg);
-width: 18px;
-height: 18px;
+  content: url(../icon/ico_foot_linkedin.svg);
+  width: 18px;
+  height: 18px;
 }
-.paticka__logo{
-text-align: center;
-padding: 1em 0;
-cursor: pointer;
+.sloupek__logo{
+  text-align: center;
+  padding: 1em 0;
+  cursor: pointer;
 }
-.paticka__adresa{
-text-align: left;
-display: flex;
-justify-content: center;
-font-weight: 400;
-line-height: 1.3em;
-margin-bottom: 1em;
+.sloupek__adresa{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  line-height: 1.3em;
+  margin-bottom: 1em;
 }
-.paticka__kontakt{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
+.sloupek__kontakt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.paticka__kontakt ul{
-list-style: none;
-font-weight: 400;
-font-size: 1em;
-line-height: 1.3em;
-margin: 0 auto;
-padding-left: 0;
+.sloupek__kontakt ul{
+  list-style: none;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin: 0 auto;
+  padding-left: 0;
 }
-.paticka__kontakt a{
-text-align: center;
-margin: 0 auto;
-color: var(--tx-foot);
-text-decoration: none;
+.sloupek__kontakt a{
+  text-align: center;
+  margin: 0 auto;
+  color: var(--tx-foot);
+  text-decoration: none;
 }
-.paticka-kontakt__mail .paticka-kontakt__mobil{
-padding-left: 0;
+.sloupek-kontakt__mail .sloupek-kontakt__mobil{
+  padding-left: 0;
 }
-.paticka__videotut a{
-text-align: left;
-text-decoration: none;
-color: var(--tx-foot);
-}
-.paticka__podpora a{
-text-align: left;
-text-decoration: none;
-color: var(--tx-foot);
+.odkazy__videotut a, .odkazy__podpora a, .odkazy__menu a{
+  text-align: left;
+  text-decoration: none;
+  color: var(--tx-foot);
 }
 .paticka__odkazy{
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.paticka__menu a{
-text-align: left;
-text-decoration: none;
-color: var(--tx-foot);
-list-style: none;
+.odkazy__menu a{
+  list-style: none;
 }
-.paticka__menu ul, .paticka__videotut ul, .paticka__podpora ul{
-font-weight: 400;
-font-size: 1em;
-line-height: 1.3em;
-list-style: none;
-padding-left: 0;
+.odkazy__menu ul, .odkazy__videotut ul, .odkazy__podpora ul{
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.3em;
+  list-style: none;
+  padding-left: 0;
 }
-.paticka__menu h3, .paticka__videotut h3, .paticka__podpora h3{
-font-weight: 800;
-font-size: 1.3em;
-line-height: 1.8em;
-text-align: left;
-color: var(--tx-foot);
+.odkazy__menu h3, .odkazy__videotut h3, .odkazy__podpora h3{
+  font-weight: 800;
+  font-size: 1.3em;
+  line-height: 1.8em;
+  text-align: left;
+  color: var(--tx-foot);
 }
 .paticka__zahlavi{
-padding-top: 0.6em;
-border-top: solid 2px var(--tx-foot);
-margin: 1em 0.53em 0;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  padding-top: 0.6em;
+  border-top: solid 2px var(--tx-foot);
+  margin: 1em 0.53em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .paticka__zahlavi > p{
-color: var(--tx-foot);
-text-align: center;
+  color: var(--tx-foot);
+  text-align: center;
 }
-.paticka__menu a:hover, .paticka__podpora a:hover, .paticka__videotut a:hover{
-text-decoration: underline;
+.odkazy__menu a:hover, .odkazy__podpora a:hover, .odkazy__videotut a:hover{
+  text-decoration: underline;
 }
 .povinny-nadpis{
-display: none;
+  display: none;
 }
