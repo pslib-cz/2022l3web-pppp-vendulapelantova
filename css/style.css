@@ -325,3 +325,11 @@ figcaption{
 .povinny-nadpis{
   display: none;
 }
+.kbox__odkaz:hover{
+  color: var(--butt);
+  transform: scale(1.25, 1.25);
+  transition: transform 1s;
+}
+.kbox__odkaz:hover .kbox__popis{
+  color: var(--butt);
+}
