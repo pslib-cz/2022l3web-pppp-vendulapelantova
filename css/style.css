@@ -110,12 +110,11 @@ color: var(--text);
 .button:hover{
 background-color: var(--hower);
 }
-.button__text--cerny:hover, .buttonOR__text--cerny:hover{
-color: var(--butt_text);
+.button:hover .button__text--cerny{
+  color: var(--butt_text);
 }
 .buttonOR:hover{
 border: 4px solid var(--hower);
-color: var(--butt_text);
 }
 
 .recenze__popis, .osoba__popis{
@@ -234,6 +233,7 @@ height: 18px;
 .paticka__logo{
 text-align: center;
 padding: 1em 0;
+cursor: pointer;
 }
 .paticka__adresa{
 text-align: left;
@@ -300,6 +300,7 @@ font-weight: 800;
 font-size: 1.3em;
 line-height: 1.8em;
 text-align: left;
+color: var(--tx-foot);
 }
 .paticka__zahlavi{
 padding-top: 0.6em;
@@ -314,7 +315,7 @@ align-items: center;
 color: var(--tx-foot);
 text-align: center;
 }
-.paticka__menu a:hover{
+.paticka__menu a:hover, .paticka__podpora a:hover, .paticka__videotut a:hover{
 text-decoration: underline;
 }
 .povinny-nadpis{
