@@ -156,9 +156,27 @@ color: var(--butt);
 background-color: var(--butt_text);
 }
 .puntiky{
-content: url(../icon/Group-59.svg);
 margin: 0 auto;
 margin-bottom: 2.4em;
+}
+.puntiky__modry{
+  content: url(../icon/Ellipse-37M.svg);
+}
+.puntiky__bily{
+  content: url(../icon/Ellipse-35B.svg);
+}
+.puntiky__bily, .puntiky__modry{
+  width: 10px;
+  height: 10px;
+}
+.vyhody__obdelniky--slide{
+  display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.obdelniky--slide1, .obdelniky--slide2{
+ position: relative;
+ flex: 0 0 100%;
 }
 figcaption{
   font-weight: 700;

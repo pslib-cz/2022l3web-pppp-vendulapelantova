@@ -24,15 +24,11 @@
 .vyhody__obr{
     padding: 2.5em;
 }
-.vyhody__obdelniky{
-    grid-template-areas: 
-    "obdelnik1 obdelnik2 obdelnik3 obdelnik4"
-    "puntik puntik puntik puntik"
-    "button button button button";
-    column-gap: 0.25em;
+.vyhody__obdelniky--slide{
+    max-width: 1312px;
 }
-.bodik{
-    margin-left: 2em;
+.obdelniky--slide1, .obdelniky--slide2{
+    grid-template-columns: repeat(4, 1fr);
 }
 .box__text{
     max-width: 50em;

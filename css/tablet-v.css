@@ -14,32 +14,12 @@
 .vyhody__obr {
     padding: 1.25em;
 }
-.vyhody__obdelniky{
-    margin: 0 2em;
+.obdelniky--slide1, .obdelniky--slide2{
     display: grid;
-    grid-template-areas:
-    "obdelnik1 obdelnik2"
-    "obdelnik3 obdelnik4"
-    "puntik puntik"
-    "button button";
+    grid-template-columns: repeat(2, 1fr);
 }
-.obdelnik1{
-    grid-area: obdelnik1;
-}
-.obdelnik2{
-    grid-area: obdelnik2;
-}
-.obdelnik3{
-    grid-area: obdelnik3;
-}
-.obdelnik4{
-    grid-area: obdelnik4;
-}
-.puntiky{
-    grid-area: puntik;
-}
-.button{
-    grid-area: button;
+.vyhody__obdelniky--slide{
+    margin: 0 0.5em;
 }
 .box__nadpis{
     text-align: left;

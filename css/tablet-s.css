@@ -48,6 +48,10 @@
 .hamburger-nav li:nth-child(5){
     border-right: 2px solid var(--cara);
 }
+.vyhody__obdelniky--slide{
+    max-width: 690px;
+    margin: 0 auto;
+}
 .pribeh__box{
     display: flex;
     flex-direction: row;
