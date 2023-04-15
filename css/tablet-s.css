@@ -40,9 +40,13 @@
     background-color: var(--butt);
     border-radius: 30px;
     padding: 0.75em 1.5em;
+    margin-left: 0.5em;
 }
 .hamburger-nav li:last-child a{
     color: var(--butt_text);
+}
+.hamburger-nav li:nth-child(5){
+    border-right: 2px solid var(--cara);
 }
 .pribeh__box{
     display: flex;
