@@ -30,6 +30,7 @@
 }
 .vyhody__kolecka{
     grid-template-columns: repeat(4, 1fr);
+    max-width: none;
 }
 .vyhody__obr{
     padding: 2.5em;
