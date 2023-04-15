@@ -90,6 +90,7 @@ left: 0;
 transform: scaleX(1);
 transition: 1s;
 display: block;
+padding-left: 0;
 }  
 .hamburger-nav{
 transform: scaleX(0);
@@ -309,8 +310,6 @@ color: var(--butt);
 background-color: var(--funkce__obdelnik);
 padding-top: 3em;
 }
-
-
 .dotazy__popis{
 margin: 0 1.5em;
 }
@@ -324,12 +323,9 @@ color: var(--text-index);
 .dotazy__tlacitka{
 margin: 3em 0;
 }
-
-
 .obdelnikfce .obdelnikfce__nazev .obdelnikfce__popis{
 background-color: var(--butt_text);
 }
-/*29032023*/
 .funkce__obdelnik {
 background-color: var(--funkce__obdelnik);
 padding-top: 3em;
