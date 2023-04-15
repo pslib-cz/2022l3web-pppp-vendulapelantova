@@ -81,6 +81,8 @@
 }
 .paticka__zahlavi{
     grid-area: zahlavi;
+    flex-direction: row;
+    justify-content: space-between;
 }
 /*funkce*/
 .nazev-sekce{

@@ -31,10 +31,7 @@ h1{
   font-size: 2em;
   line-height: 3.5em;
 }
-.h1-or{
-  color: var(--butt);
-}
-span{
+.h1-or, span, .obdelnikfce__nazev{
   color: var(--butt);
 }
 h2{
@@ -45,11 +42,8 @@ h5{
   line-height: 1.4em;
   text-align: left;
 }
-.obdelnikfce__nazev{
-  color: var(--butt);
-}
-.obdelnikfce__nazev:hover{
-  color: var(--nadpis); 
+.obdelnikfce:hover .obdelnikfce__nazev{
+  color: var(--nadpis);
 }
 h4{
   font-size: 1.25em;
@@ -199,10 +193,10 @@ figcaption{
   color: var(--figcap);
   padding: 2em;
 }
-
 .aktuality{
-background-color: var(--hlavička);
-padding: 0 1em 2.5em;
+  background-color: var(--hlavička);
+  padding: 0.5em 1em 2.5em;
+  margin-top: 2em;
 }
 .aktuality__modul::before{
 content: url(../icon/Frame-68.svg);

@@ -71,9 +71,8 @@
 /*funkce*/
 .funkce__obdelnik{
     grid-template-columns: repeat(4, 1fr);
-    max-width: 1750px;
+    max-width: 1450px;
     margin: 0 auto;
-    margin: 0 1em;
 }
 /*kontak*/
 .kontakt{
