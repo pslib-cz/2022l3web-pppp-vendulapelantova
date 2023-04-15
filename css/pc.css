@@ -15,6 +15,9 @@
 .uvod__popis{
     align-items: flex-start;
 }
+.bodik{
+    margin-left: 2em;
+}
 .uvod__tlacitko{
     margin: 0 1em;
 }

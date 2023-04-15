@@ -66,6 +66,9 @@ h4{
   flex-wrap: nowrap;
   gap: 0.5em;
 }
+.hlavicka__kontakt a:hover, .hlavicka__prihlaseni a:hover{
+  text-decoration: underline;
+}
 .mobil::before{
   content: url(../icon/ico_head_telephone.svg);
   padding-right: 0.5em;
